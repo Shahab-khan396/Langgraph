@@ -30,5 +30,3 @@ builder.add_edge(START, "greeting")
 builder.add_edge("greeting", END)
 
 graph= builder.compile()
-
-print(graph.invoke("Hi! i am excited to learn about Langgraph. "))
