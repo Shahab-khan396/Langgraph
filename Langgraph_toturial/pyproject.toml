@@ -8,11 +8,11 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
-    "langchain",
-    "langchain-openai",
-    "langgraph",
-    "langgraph-cli[inmem]",
-    "python-dotenv",
+    "langchain>=1.4.0",
+    "langchain-openai>=1.6.2",
+    "langgraph>=1.2.11",
+    "langgraph-cli[inmem]>=0.4.31",
+    "python-dotenv>=1.2.3",
 ]
 
 [project.scripts]
