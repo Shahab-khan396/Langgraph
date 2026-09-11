@@ -1,0 +1,23 @@
+[project]
+name = "langgraph-toturial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Shahab-khan396", email = "ksab2922@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "langchain",
+    "langchain-openai",
+    "langgraph",
+    "langgraph-cli[inmem]",
+    "python-dotenv",
+]
+
+[project.scripts]
+langgraph-toturial = "langgraph_toturial:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
