@@ -3,7 +3,11 @@
     "graphs":{
         "0_graph":"./module_1/0_graph_state_str.py:graph",
         "1_graph":"./module_1/1_graph_state_dict.py:graph",
-        "2_graph":"./module_1/2_graph_conditional_edges.py:graph"
+        "2_graph":"./module_1/2_graph_conditional_edges.py:graph",
+        "3_graph":"./module_1/3-graph_introduction_model.py:graph",
+        "4_graph":"./module_1/4_graph_message_state.py:graph",
+        "5_graph":"./module_1/5_graph_model_tool.py:graph"
+
 
     },
     "env": ".env"
