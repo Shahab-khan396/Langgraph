@@ -1,4 +1,13 @@
+# Local configuration and secrets
 .env
+.env.*
+!.env.example
+
+# LangGraph development artifacts
+.langgraph_api/
+
+# Local Python environment
+.venv/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -150,9 +159,7 @@ activemq-data/
 *.sage.py
 
 # Environments
-.env
 .envrc
-.venv
 env/
 venv/
 ENV/
