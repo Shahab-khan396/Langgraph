@@ -26,7 +26,7 @@ def next_step(state: state)->Literal["node2", "node3"]:
     
     state_str = state["graph_str"]
     array_state_str= state_str.split(" ")
-    if array_state_str[0] == "Hello!":
+    if array_state_str[0] == "hello":
         return "node2"
     else:
         return "node3"    
