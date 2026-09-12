@@ -1,7 +1,9 @@
 {   
     "dependencies":["."],
     "graphs":{
-        "0_graph":"./module_1/0_graph_state_str.py:graph"
+        "0_graph":"./module_1/0_graph_state_str.py:graph",
+        "1_graph":"./module_1/1_graph_state_str.py:graph",
+        "2_graph":"./module_1/2_graph_conditional_edges.py:graph"
 
     },
     "env": ".env"
