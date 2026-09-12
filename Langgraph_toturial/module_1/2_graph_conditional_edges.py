@@ -44,6 +44,6 @@ builder.add_conditional_edges("node1", next_step)
 builder.add_edge("node2", END)
 builder.add_edge("node3", END)
 
-builder.compile()
+graph = builder.compile()
 
 
